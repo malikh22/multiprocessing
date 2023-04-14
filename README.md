@@ -7,7 +7,8 @@ names from a folder.
 
 The processor’s parameters are <n:int>, <s:char>, <folder:char*> and <file
 name: char*>. 
--- The <n> sets the maximum number of threads/child processes to exist at any
+
+-- n sets the maximum number of threads/child processes to exist at any
 time.
 
 -- s is a selector. If (s==’t’) the program will use the thread
